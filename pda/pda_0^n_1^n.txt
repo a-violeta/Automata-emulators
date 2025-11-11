@@ -1,0 +1,29 @@
+#pda for 0^n 1^n, hope it works
+[states]
+q0
+q1
+q2
+q3
+[end]
+[sigma]
+0
+1
+[end]
+[stack_alphabet]
+$
+0
+1
+[end]
+[rules]
+q0 epsilon, epsilon, $ q1
+q1 0, epsilon, 0 q1
+q1 1, 0, epsilon q2
+q2 1, 0, epsilon q2
+q2 epsilon, $, epsilon q3
+[end]
+[start]
+q0
+[end]
+[accept]
+q3
+[end]

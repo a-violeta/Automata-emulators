@@ -1,0 +1,21 @@
+	#primul dfa, nu mai stiu ce face
+[states]
+q0
+q1
+[end]
+[sigma]
+0
+1
+[end]
+[rules]
+q0 0 q0
+q0 1 q1
+q1 0 q0
+q1 1 q1
+[end]
+[start]
+q0
+[end]
+[accept]
+q1
+[end]

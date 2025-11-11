@@ -1,0 +1,21 @@
+#nfa ... q0,0 -> q0,1 -> ... -> q0,n, epsilon astea, q0,n final
+#         |       |
+#         v       v
+#        q1,0 -> q1,1, epsilon toate
+#q10 0 q 00, q00 1 q00, q10 1 q10, tot asa
+
+[states]
+
+[end]
+[sigma]
+
+[end]
+[rules]
+
+[end]
+[start]
+
+[end]
+[accept]
+
+[end]

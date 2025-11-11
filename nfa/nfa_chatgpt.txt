@@ -1,0 +1,26 @@
+#nfa nu stim ce face
+
+[states]
+q0
+q1
+q2
+[end]
+[sigma]
+0
+1
+[end]
+[rules]
+q0 0 q0
+q0 0 q1
+q0 1 q0
+q1 1 q2
+q2 0 q2
+q2 1 q2
+q1 epsilon q2
+[end]
+[start]
+q0
+[end]
+[accept]
+q2
+[end]

@@ -1,0 +1,30 @@
+#turing pt n1+n2, unare
+[states]
+q0
+q1
+q2
+q3
+[end]
+[sigma]
+1
++
+_
+$
+[end]
+[directions]
+left
+right
+[end]
+[rules]
+q0 1 q0 1 right
+q0 + q1 1 right
+q1 1 q1 1 right
+q1 $ q2 _ left
+q2 1 q3 $ left
+[end]
+[start]
+q0
+[end]
+[accept]
+q3
+[end]

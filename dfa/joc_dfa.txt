@@ -1,0 +1,29 @@
+#joc harta center hallway, left kitchen, right library (down from lib is exit), up is secret room, down is entrance, buttons are up,down,left,right
+#in plus, ia lingura pick pt a iesi
+[states]
+entrance
+hallway
+kitchen
+secret_room
+library
+exit
+[end]
+[sigma]
+up
+down
+left
+right
+[end]
+[rules]
+entrance up hallway
+hallway up secret_room
+hallway left kitchen
+hallway right library
+library down exit
+[end]
+[start]
+entrance
+[end]
+[accept]
+exit
+[end]
