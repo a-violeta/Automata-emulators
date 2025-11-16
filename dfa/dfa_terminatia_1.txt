@@ -1,4 +1,4 @@
-	#primul dfa, nu mai stiu ce face
+#dfa recunoaste sirurile cu terminatia '1'
 [states]
 q0
 q1
