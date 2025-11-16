@@ -1,5 +1,4 @@
-#dfa pt antepenultimul elem egal cu 1
-#hai intai cu ultimul, sa fie b: start q0, end q1, rules: q0 a q0, q0 b q1, q1 a q0
+#dfa recunoaste cand antepenultimul elem este 'b'
 
 [states]
 q0
@@ -26,4 +25,5 @@ q0
 [end]
 [accept]
 q3
+
 [end]
