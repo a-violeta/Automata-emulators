@@ -1,5 +1,6 @@
-#joc harta center hallway, left kitchen, right library (down from lib is exit), up is secret room, down is entrance, buttons are up,down,left,right
-#in plus, ia lingura pick pt a iesi
+#map description: center -> hallway, left -> kitchen, right -> library (down from lib -> exit), up -> secret room, down -> entrance, buttons are up, down, left, right
+#in plus, exit accepta sa scapi doar daca ai fost in kitchen si ai facut pick_up spoon anterior
+
 [states]
 entrance
 hallway
@@ -45,4 +46,5 @@ entrance
 [end]
 [accept]
 exit
+
 [end]
