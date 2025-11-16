@@ -54,7 +54,7 @@ def read_dfa(fisier):
         print(f"Eroare: {e}")
         return None
 
-def emulator_dfa(fisier, input):
+def emulate_dfa(fisier, input):
     
     dfa = read_dfa(fisier)
     
@@ -267,3 +267,4 @@ def read_pda(fisier):
         print(f"Eroare: {e}")
         return None
  
+
