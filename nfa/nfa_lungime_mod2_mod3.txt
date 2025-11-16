@@ -1,4 +1,4 @@
-#nfa start are 2 stari cu tranzitii epsilon, una pt sir de lungime mod 2, una mod 3
+#nfa cu: start cu 2 stari cu tranzitii epsilon, una pt a valida un sir de lungime mod 2, cealalta pt sir de lungime mod 3
 
 [states]
 q0
@@ -32,4 +32,5 @@ q0
 [accept]
 q1
 q3
+
 [end]
